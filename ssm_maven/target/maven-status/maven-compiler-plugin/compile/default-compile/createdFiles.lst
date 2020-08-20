@@ -1,0 +1,5 @@
+cn\mavenDemo\ssm\web\AccountViewAction.class
+cn\mavenDemo\ssm\dao\AccountMapper.class
+cn\mavenDemo\ssm\pojo\Account.class
+cn\mavenDemo\ssm\service\impl\AccountServiceImpl.class
+cn\mavenDemo\ssm\service\AccountService.class

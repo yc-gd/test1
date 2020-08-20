@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.mavenDemo.ssm.dao.AccountMapper">
+
+    <resultMap id="arm1" type="account">
+        <id property="id" column="a_id"/>
+        <result property="name" column="a_name"/>
+        <result property="money" column="a_money"/>
+    </resultMap>
+
+    <select id="findAllAccounts" resultMap="arm1">
+        SELECT * FROM user_account
+    </select>
+
+</mapper>
